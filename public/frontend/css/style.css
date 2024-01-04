@@ -1,0 +1,341 @@
+*{padding: 0;margin: 0; }
+/* navbar  css start  */
+.navbar-bg{ background-color: #000; padding: 15px 0px;}
+.navbar-main{ display: flex; justify-content: space-between; align-items: center;}
+.logolink{ text-decoration: none; color: #fff;}
+.navbar-item{ display: flex; list-style: none; align-items: center; margin-bottom: 0px; }
+.navbar-item li { margin-right: 20px;}
+.navbar-item li a{ text-decoration: none; color: #fff; font-size: 18px;}
+.navbar-sign-upbtn{ text-decoration: none; color: #198FD9; font-size: 20px; border: 2px solid #198FD9; height: 45px; line-height: 40px; width: 150px; display: inline-block; text-align: center; border-radius: 5px; }
+.navbar-item li a.navbar-active{ border-bottom: 2px  solid #D94855 ; width: 50%; display: flex; justify-content: center; line-height: 33px; }
+/* navbar css end  */
+/* home  banner  css  start */
+.home-banner-imgsection{ position: relative; }
+.homebanner-text{ position: absolute;top: 50%;color: #fff;width: 50%;transform: translateY(-50%);}
+.homebanner-text p { border-left: 2px solid #D94855; margin-bottom: 0px; letter-spacing: 3px;font-size: 25px;line-height: 25px;padding-left: 10px;margin-bottom: 20px;}
+.homebanner-text h2{ font-size: 55px;font-weight: bold;margin-bottom: 20px;}
+.homebanner-text button{background-color: #198FD9;height: 45px;line-height: 45px;width: 170px;border: none;border-radius: 10px;color: #fff;}
+/* home  banner  css  end */
+/* how  it  work  css  start */
+.how-it-worksection{ padding: 50px 0px;}
+.how-it-worktext{ border-left: 4px solid  #198FD9;font-size: 45px;font-weight: bold;line-height: 45px;margin-bottom: 20px;padding-left: 15px;}
+.how-itwork-gridbhag{ display: grid;grid-template-columns: auto auto auto auto auto; gap: 30px;}
+.number-imagemain{ display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #707070;margin-bottom: 15px;} 
+.number-imagemain p{font-size: 90px;color: #fff;-webkit-text-stroke: 2px #000;font-weight: bold;line-height: 60px;}
+.number-imagemain img{height: 85px;width: 100%;object-fit: contain;margin-bottom: 15px;}
+.hit-sign-uptext h4{font-size: 25px;font-weight: 600;color: #333333;}
+.hit-sign-uptext p{color: #999999;font-size: 15px;}
+/* how  it  work  css  end */
+/* happy client start  */
+.happy-client-bg{ background: #051D2C; padding: 50px 0px; }
+.happy-client-grid{ display: grid; grid-template-columns: auto auto auto; gap: 15px;}
+.hc-grid-item-innerdata{ display: flex; align-items: center; width: 70%; padding: 15px 0px;}
+.hc-grid-item-innerdata img{ height: 110px; width: auto ; margin-right: 10px;}
+.hc-giinnr-numbers{font-size: 50px;color: #fff;margin-bottom: 0px;line-height: 50px;font-weight: 600;}
+.hc-giinnr-text{color: #fff;font-size: 20px;margin-bottom: 0px;}
+.hc-grid-item-skiled{ display: flex; align-items: center; width: 68%; padding: 15px 0px;}
+.hc-grid-item-skiled img{ height: 100px;}
+/* happy client end  */
+/* top physio start */
+.top-physio-section{padding: 50px 0px;}
+.top-physio-text{ border-left: 4px solid #198FD9;font-size: 45px;font-weight: bold;text-transform: uppercase;padding-left: 12px;line-height: 42px;margin-bottom: 30px;}
+.doctor-data{display: flex;align-items: center;justify-content: space-between;}
+.doctor-name{ font-size: 22px;color: #666666;margin-bottom: 0px;}
+.doctor-exp{ margin-bottom: 0px;color: #666666;font-size: 13px;}
+.doctor-slider-img{ height: 300px;width: 100%;object-fit: contain;} 
+#top-physio-carousel .owl-nav{ height: 0px; }
+#top-physio-carousel .owl-dots{ height: 0px;}
+#top-physio-carousel  .owl-nav .owl-prev span{position: absolute;top: 50%;left: -10px;transform: translateY(-50%);font-size: 50px;line-height: 45px;color: #198FD9;}
+#top-physio-carousel .owl-nav .owl-next span{position: absolute;top: 50%;right: -10px;transform: translateY(-50%);font-size: 50px;line-height: 45px;color: #198FD9;}
+/* top physio end */
+/* video  css start  */
+.video-bg{background-color: #051D2C; padding: 50px 0px;}
+#video-physio-carousel .owl-nav .owl-prev{font-size: 70px;line-height: 20px;left: 0;position: absolute;color: #fff;}
+#video-physio-carousel .owl-nav .owl-prev span{font-size: 52px;line-height: 16px;}
+#video-physio-carousel .owl-nav .owl-prev::before{content: "Prev";font-size: 26px;line-height: 20px;position: absolute;left: 26px;top:15px;color: #fff;}
+#video-physio-carousel .owl-nav .owl-next{ font-size: 70px;line-height: 20px;right: 0;position: absolute;color: #fff;}
+#video-physio-carousel .owl-nav .owl-next span{font-size: 52px;line-height: 16px;}
+#video-physio-carousel .owl-nav .owl-next::before{content: "Next";font-size: 26px;line-height: 20px;position: absolute;right: 26px;top:15px;color: #fff;}
+.video-text{ color: #fff; width: 85%; }
+/* video  css end  */ 
+/* subscription css start  */
+.subscription-section{ padding: 50px 0px;}
+.subscription-head{border-left: 4px solid #198FD9;font-size: 45px;font-weight: bold;text-transform: uppercase;padding-left: 12px;line-height: 42px;margin-bottom: 20px;}
+.grid-subscription{display: grid;grid-template-columns: auto auto auto;gap: 15px;}
+.subscrit-card-item{ position: relative;}
+.subscrit-free-btn{background-color: #198FD9;width: 120px;height: 40px;text-align: center;border: none;line-height: 40px;font-size: 25px;color: #fff;border-radius: 10px;display: block;margin-left: auto;margin-right: auto;margin-bottom: -20px;}
+.euro-text{color: #198FD9;font-size: 25px;font-weight: bold;}
+.euro-text svg{font-size: 22px;font-weight: bold;}
+.free-month-text{font-size: 19px;color: #666666;font-weight: bold;text-align: center;padding-top: 40px;padding-bottom: 20px;display: block;}
+.subscrit-free-datatext{box-shadow: 0px 0px 14px 0px #0000001A;border-radius: 10px;padding-bottom: 30px;padding-left: 20px;padding-right: 20px;}
+.subscrit-free-datatext p{border-left: 2px solid #198FD9;padding-left: 10px;padding-bottom: 10px;}
+.card-subscription-btn{height: 55px;width: 100%;background-color: #198FD9;color: #fff;border: none;border-radius: 10px;display: block;line-height: 55px;text-align: center;text-decoration: none;margin-top: 35px;}
+.card-subscription-btn:hover{color: #fff;}
+/* subscription css end*/
+/* get in  touch  css start  */
+.get-in-touchsection{box-shadow: 0px 0px 14px 0px #0000001A;padding: 40px;border-radius: 15px;margin-bottom: 50px;}
+.get-in-touchtext{border-left: 4px solid #198FD9;font-size: 45px;font-weight: bold;text-transform: uppercase;padding-left: 12px;line-height: 42px;margin-bottom: 45px;}
+.name-input{border: 1px solid rgba(120, 120, 120, 0.5); padding: 10px 15px;border-radius: 8px;margin-bottom: 30px;}
+.name-input .form-control{ padding: 0px;}
+.name-input label{display: block;color:  #A4A4A4;font-size: 16px;}
+.name-input input{border: 0px;}
+.name-input input:focus{box-shadow: unset;outline: 0px;}
+.name-input .form-control{ border: none;}
+.name-input .form-control:focus{box-shadow: unset;}
+.git-request-btn{border: 0px;background-color: #198FD9;width: 280px;height: 55px;font-size: 22px;color: #fff;border-radius: 10px;}
+.footer-section-bg{ background-color: #051D2C; padding-top: 50px; }
+.newsletter-text h5{color: #fff;font-size: 30px;font-weight: bold;}
+.newsletter-text p { color: #fff;font-size: 20px; margin-bottom: 0px;}
+.footer-email-input{position: relative;}
+.footer-email-input .form-control{height: 54px;border-radius: 10px;}
+.footer-email-input .form-control:focus{box-shadow: unset;}
+.subscrib-footer{ background-color: #198FD9;color: #fff;width: 150px;height: 44px;border: none;border-radius: 10px;position: absolute;right: 5px;top: 5px;}
+.newsletter-text-main{align-items: center;padding-bottom: 30px;border-bottom: 1px solid #707070;}
+.footer-menu ul{display: flex;align-items: center; justify-content: end;list-style: none;padding-left: 0px;margin-bottom: 0px;}
+ .footer-menu ul li {margin-left: 30px;}
+ .footer-menu ul li a{text-decoration: none;color: #d4d4d4;font-size: 18px;}
+ .social-icon {display: flex;justify-content: end;align-items: center;}
+ .social-icon a{ text-decoration: none;margin-right: 20px;color: #fff;font-size: 25px;}
+ .copyright-text{ margin-bottom: 0px;color: #fff;}
+ .footer-menu-main{ align-items: center;padding: 30px 0px;border-bottom: 1px solid #707070;}
+ .copyright-main{ align-items: center; padding: 15px 0px; }
+/* get in  touch  css end  */
+/* bio  detail  css start  */
+.profile-docacc-main{background-color: #fff;margin-top: 30px;padding: 20px;margin-left: 0;margin-right: 0;}
+.education-detail-bg{background-color: #fff;padding: 20px;margin-left: 0;margin-right: 0;}
+.education-cap-detail{display: flex;align-items: center; margin-bottom: 18px; }
+.education-cap-detail img{width: 30px;margin-right: 10px;}
+.education-cap-detail h4{margin-bottom: 0px;color: #333333;font-size: 25px; font-weight: 600; }
+.do-education-detail{list-style: none;padding-left: 0px;}
+.do-education-detail li{color: #999999;font-weight: 500;font-size: 17px;}
+.do-education-detail li svg{ color: #198FD9;margin-right: 10px;}
+.service-boibtn{text-decoration: none;color: #198FD9;background-color: #198FD91A;padding: 5px 8px;display: inline-block;margin-bottom: 5px;border-radius: 10px;}
+.acc-docter-img{height: 120px;width: 120px;object-fit: cover;border: 2px solid #198FD9;border-radius: 50%;}
+.blue-tick-main{ position: relative;width: 130px;}
+.blue-tick-img{width: 30px;height: 30px;position: absolute;right: 10%;bottom: 2%;}
+.do-name-bio{ font-weight: 600;padding-bottom: 10px;}
+.twi-insta-accidmain{display: flex;align-items: center;padding-bottom: 10px;}
+.insta-accid{display: flex;align-items: center;color: #999999;font-size: 15px;}
+.insta-accid svg{color: #198FD9;font-size: 25px;margin-right: 5px;}
+.twitter-accid{display: flex;align-items: center;margin-right: 15px;color: #999999;font-size: 15px;}
+.twitter-accid svg {color: #198FD9;font-size: 25px;margin-right: 5px;}
+.acc-followers-main{display: flex;align-items: center;padding-bottom: 10px;}
+.acc-followers-main p{margin-bottom: 0px;margin-right: 20px;color: #198FD9;font-size: 24px;}
+.acc-followers-main p span{font-weight: bold;}
+.follow-btnmain{ display: flex;align-items: center;width: 100%;}
+.follow-profile-main{text-decoration: none;background-color: #198FD9;color: #fff;height: 50px;line-height: 50px;width: 69%;text-align: center;margin-right: 10px;border-radius: 10px;}
+.follow-profile-main:hover{color: #fff;}
+.profile-upload-btn{ text-decoration: none;display: flex;align-content: center;justify-content: center;flex-direction: column;background-color: #198FD9;color: #fff;width: 29%;text-align: center;height: 50px;border-radius: 10px;font-size: 11px;}
+.profile-upload-btn:hover{color: #fff;}
+.profile-upload-btn svg{font-size: 20px;}
+.become-physiotherbg{background: rgba(112, 112,  112, 0.1);  }
+/* bio  detail  css end  */
+/* video  auto  adjust start  */
+.mansory-box-bgmain{
+	background-color: #fff;	
+	padding: 20px;
+	border-top: 2px dashed #707070;
+	margin-bottom: 50px;
+}
+.msrItems {  max-width:100%;   }
+.msrItem { border-radius:5px}
+/* video  auto  adjust  end */
+
+/* page-3  become Physio css  start  */
+.be-apart-bg{background-color: #002135; padding: 30px 0px; }
+.be-apart-bg p {
+	color: #fff;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border-left: 2px solid #D94855;
+	line-height: 15px;
+	padding-left: 10px;
+}
+.be-apart-bg h4{
+	color: #fff;
+	font-weight: bold;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+.be-apart-bg h4 svg{
+	font-size: 30px;
+	font-weight: normal;
+}
+.become-herodicus-box{
+	padding: 50px 0px;
+	position: relative;
+}
+.become-herodicus-img-box{
+	display: flex;
+	justify-content: end;
+}
+.become-herodicus-img{
+	width: 60%;
+}
+.become-herodicus-coachbox{
+	position: absolute;
+	top: 10%;
+	width: 55%;
+}
+.become-herodicus-coachbox h4 {
+	font-size: 41px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-left: 4px solid #198FD9;
+	line-height: 35px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+.become-herodicus-coachbox p {
+	font-size: 18px;
+}
+.become-herodicus-coachbox button{
+	background-color: #198FD9 ;
+	border: 0px;
+	padding: 0px 30px;
+	border-radius: 10px;
+	height: 50px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 18px;
+	width: 300px;
+	margin-top: 10px;
+}
+.mastery-box{
+	position: relative;
+}
+.mastery-box .mastery-texthead {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+.mastery-box-hovershow{
+	display: none;
+}
+.mastery-box-hovershow h4{
+	color: #fff;
+	text-align: center;
+}
+.mastery-box-hovershow p{
+	color: #f7f7f7;
+	text-align: center;
+} 
+.mastery-box:hover .mastery-box-hovershow{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	padding: 20px;
+	overflow: hidden;
+}
+.mastery-box:hover  .mastery-texthead{
+	display: none;
+}
+
+.our-clients-heading{
+	font-size: 45px;
+	font-weight: bold;
+	border-left: 4px solid #198FD9;
+	padding-left: 15px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+  
+.our-client-box p{
+	color: #000;
+	font-size: 19px;
+}
+.our-client-box p svg{
+	font-size: 70px;
+	color: rgba(25, 143, 217, 0.1);
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+.our-client-box{
+	background-color: #f6f6f6;
+	width: 70%;
+	padding: 50px 50px 15px 65px;
+	border-radius: 15px;
+	position: relative;
+}
+.clients-status-docter{
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+}
+
+.ourclient-doctor-name{
+	color: #001C40;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.join-free-bg{
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.join-free-text{
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	width: 55%;
+	transform: translateY(-50%);
+}
+.join-free-text h4 {
+	color: #fff;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.join-free-text h4::before{
+	content: '|';
+	color: #198FD9;
+	font-size: 35px;
+	position: absolute;
+	left: -20px;
+	top: 2px;
+}
+.join-free-text button{
+	background-color: #198FD9;
+	border: 0px;
+	border-radius: 10px;
+	height: 50px;
+	padding: 0px 30px;
+	line-height: 45px;
+	color: #fff;
+	text-transform: uppercase;
+	width: 250px;
+}
+
+#our-clients .owl-dots{
+	position: absolute;
+  	right: 0;
+  	transform: rotate(90deg) translateY(-50%);
+  	top: 50%;
+}
+#our-clients .item{
+	padding: 50px 0px;
+}
+#our-clients .owl-nav { display: none;}
+#our-clients .owl-theme .owl-dots .owl-dot.active span{
+	background: #198FD9 !important;
+}
+
+#our-clients .owl-theme .owl-dots .owl-dot:hover span{
+	background: #198FD9 !important;
+}
+#our-clients .owl-theme .owl-dots .owl-dot span{
+	background: rgba(37, 87, 167, 0.22) !important;
+}
+/* page-3  become Physio css  end  */
